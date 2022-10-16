@@ -13,7 +13,7 @@ type PromotionResponse struct {
 
 func CreatePromotionResponse(promotion models.Promotion) PromotionResponse {
 	return PromotionResponse{
-		UUID:           promotion.UUID,
+		UUID:           promotion.Id,
 		Price:          promotion.Price,
 		ExpirationDate: promotion.ExpirationDate,
 	}
