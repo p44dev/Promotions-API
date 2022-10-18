@@ -44,3 +44,11 @@ paths:
                     format: date-time
                     default: 22-10-14 12:34:10
                     description: the timestamp showing promotion expiration time
+        '404':
+            description: Promotion doesn't found. Returning 404 and 'Not Found' message
+            content:
+              text/plain:
+                schema:
+                  type: string
+                  default: "Not Found"
+                  description: Returning Not Found as a message
