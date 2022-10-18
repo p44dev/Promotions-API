@@ -1,4 +1,4 @@
-# Promotions-API
+# Promotions-API :notebook:
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 
@@ -34,7 +34,7 @@
 ## About The Project
 
 Sample demonstration project that is about serving promotions data from a backend service.
-The proejct built on top of the REST API architecture.
+The prject built on top of the REST architecture.
 Used Go (Gin, GORM) for code. Postgres as a storage. AWS (EC2, Security Group, Load Balancer) for deployment
 and handling the high load,Docker for containerization and Prometheus for metrics collection.
 
@@ -61,8 +61,6 @@ Project also uses Go program for Bulk data inserting into Postgres.
 
 ## Getting Started
 
-Follow the instructions for setting up the prject locally.
-
 ### Prerequisites
 
 Before jumping into project cloning make sure to have 
@@ -87,6 +85,7 @@ Before jumping into project cloning make sure to have
   ```sh
   Download from here https://www.gnu.org/software/make/ (Not Mandatody)
   ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation and Usage
 
@@ -123,7 +122,7 @@ Instructions for setting up and running the project
 
 ## Roadmap
 
-- [ ] Use AWS EC2 more poewrful Instace or deploy into Beanstalk (Now using 1 cpu from free tier)
+- [ ] Use AWS EC2 more powerful Instace or deploy into Beanstalk (Now using 1 cpu from free tier)
 - [ ] Add Cron Job for inserting bulk data every 30 minutes and swap tables.
 - [ ] Add POST | PATCH | DELETE etc.. requests into REST service 
 - [ ] Containerize bulk inserting application and postgres
@@ -169,11 +168,12 @@ Project Link: [https://github.com/p44dev/Promotions-API](https://github.com/p44d
 ## Acknowledgments
 
 * [TechWorld with Nana](https://www.youtube.com/c/TechWorldwithNana) :rocket:
-* [GIN](https://github.com/gin-gonic/gin/releases) :construction_worker:
+* [GIN](https://github.com/gin-gonic/gin/releases) :wrench:
 * [Img Shields](https://shields.io) :fire:
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Thank You :blush:
+## Thank You :smiley:
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
