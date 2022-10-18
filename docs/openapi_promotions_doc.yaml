@@ -1,0 +1,46 @@
+openapi: 3.0.0
+servers:
+  - description: AWS EC2 Server
+    url: http://ec2-3-84-214-210.compute-1.amazonaws.com:1321
+info:
+  version: "1.0.0"
+  title: Promotions-API
+  description: The API for getting promotions
+paths:
+  '/promotions/{promotionId}':
+    get:
+      tags:
+        - Promotion
+      operationId: getPromotionById
+      parameters:
+        - name: promotionId
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Getting single promotion details
+          content:
+            application/json:
+              schema:
+                type: object
+                required:
+                  - id
+                  - price
+                  - expiration_date
+                properties:
+                  id:
+                    type: string
+                    format: uuid
+                    description: the unique identifier for the promotion
+                  price:
+                    type: number
+                    format: float
+                    description: the price of the promotion
+                    default: 20.124
+                  expiration_date:
+                    type: string
+                    format: date-time
+                    default: 22-10-14 12:34:10
+                    description: the timestamp showing promotion expiration time
