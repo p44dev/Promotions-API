@@ -55,6 +55,7 @@ Project also uses Go program for Bulk data inserting into Postgres.
 [![Postgres][Postgres]][Postgres-url]
 [![Git][Git]][Git-url]
 [![Prometheus][Prometheus]][Prometheus-url]
+[![Swagger][Swagger]][Swagger-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -189,3 +190,5 @@ Project Link: [https://github.com/p44dev/Promotions-API](https://github.com/p44d
 [Git-url]: https://git-scm.com/
 [Prometheus]: https://img.shields.io/badge/prometheus-000000?style=for-the-badge&logo=prometheus&logoColor=red
 [Prometheus-url]: https://prometheus.io/
+[Swagger]: https://img.shields.io/badge/swagger-000000?style=for-the-badge&logo=swagger&logoColor=green
+[Swagger-url]: https://swagger.io/
